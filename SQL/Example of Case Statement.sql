@@ -1,0 +1,6 @@
+USE classicmodels;
+
+SELECT *, CASE WHEN COMMENTS LIKE '%DISPUTE%' THEN 1 ELSE 0 END AS disputed,
+CASE WHEN COMMENTS LIKE '%NEGOTIATE%' THEN 'Negotiated Order'
+ELSE  'NO DISPUTE' END AS status_1
+FROM orders;
