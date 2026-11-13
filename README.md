@@ -1,2 +1,2 @@
-# College-Projects
-This is a portfolio of my College projects 
+# Personal-Projects
+This is a portfolio of my Personal projects 
